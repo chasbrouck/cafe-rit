@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Coffee</title>
+	<link rel="icon" href="img/coffee2.png">
+	<link rel="stylesheet" type="text/css" href="fullPage/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="fullPage/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section active center white" id="section0">
+			<h1>Coffee & Friends</h1>
+			<img src="img/coffee2.png" class="coffeeIcon"><br>
+			<img src="img/ARROW.png" class="arrow">
+	</div>
+	<div class="section center pure-g" id="section2">
+			<div class="pure-u-1-2 white full">
+				<h1 class="title">Latte</h1>
+				<img class="icon" src="img/latte.png">
+			</div>
+			<div class="pure-u-1-2 black full">
+				<h1 class="title">Recipe</h1>
+					<h3 class="parts">+ 1 part espresso</h2>
+					<h3>+ 3 part steamed milk</h2>
+			</div>
+	</div>
+	<div class="section center pure-g" id="section3">
+			<div class="pure-u-1-2 white full">
+				<h1 class="title">Cappuccino</h1>
+				<img class="icon" src="img/cappuccino.png">
+			</div>
+			<div class="pure-u-1-2 black full">
+				<h1 class="title">Recipe</h1>
+					<h3 class="parts">+ 2 part espresso</h2>
+					<h3>+ 1 part steamed milk</h2>
+			</div>
+	</div>
+	<div class="section center pure-g" id="section4">
+			<div class="pure-u-1-2 white full">
+				<h1 class="title">Americano</h1>
+				<img class="icon" src="img/latte.png">
+			</div>
+			<div class="pure-u-1-2 black full">
+				<h1 class="title">Recipe</h1>
+					<h3 class="parts">+ 1 part espresso</h2>
+					<h3>+ 1 part hot water</h2>
+			</div>
+	</div>
+</body>
+</html>
