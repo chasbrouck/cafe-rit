@@ -84,6 +84,13 @@ h1, h2, h3 {
 .link {
 	text-decoration: none !important;
 }
-
+.author{
+ 	position: absolute;
+ 	bottom: 3%;
+ 	left:2%;
+ 	color: #414042;
+ 	z-index: 10;
+ 	font-size: 12px;
+}
 
 
