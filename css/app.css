@@ -1,66 +1,77 @@
 .center {
 	text-align: center;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: #414042;
 }
 
-.black h1, .black h2, .black h3 {
-	color:#f2f2f2;
+.black h1,
+.black h2,
+.black h3 {
+	color: #f2f2f2;
 }
+
 .white {
 	background-color: #f2f2f2;
 }
+
 .black {
 	background-color: #414042;
 }
+
 .full {
 	height: 100%;
 }
 
-.coffeeIcon{
+.coffeeIcon {
 	width: 20%;
-
 }
-.icon{
+
+.icon {
 	padding-top: 10%;
 	width: 40%;
 }
+
 .arrow {
 	width: 10%;
 }
-.arrow2 {
 
+.arrow2 {
 	width: 10%;
 	padding-top: 10%
 }
+
 .arrow3 {
 	width: 10%;
 	padding-top: 10%
 }
+
 .title {
 	padding-top: 5%;
 }
-.parts{
+
+.parts {
 	padding-top: 25%;
 }
 
-@media only screen and (max-device-width: 736px) 
- { 
- 	.about{
- 		font-size: 1.5em;
- 	}
- 	h1 {
- 		font-size: 2.3em;
- 	}
- 	h3 {
+@media only screen and (max-device-width: 736px) {
+	.about {
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 2.3em;
+	}
+	h3 {
 		font-size: 2em;
 	}
-	.coffeeIcon{
+	.coffeeIcon {
 		width: 40%;
 	}
-	.icon{
+	.icon {
 		padding-top: 10%;
 		width: 60%;
 	}
@@ -71,14 +82,17 @@ h1, h2, h3 {
 		padding-top: 50% !important;
 	}
 }
+
+
 /* media queries */
 
-.back{
+.back {
 	position: absolute;
 	top: 3%;
 	left: 2%;
 	text-decoration: none !important;
 }
+
 .about {
 	position: absolute;
 	top: 3%;
@@ -91,16 +105,16 @@ h1, h2, h3 {
 .textAbout {
 	margin-top: 20%;
 }
+
 .link {
 	text-decoration: none !important;
 }
-.author{
- 	position: absolute;
- 	bottom: 3%;
- 	left:2%;
- 	color: #414042;
- 	z-index: 10;
- 	font-size: 12px;
+
+.author {
+	position: absolute;
+	bottom: 3%;
+	left: 2%;
+	color: #414042;
+	z-index: 10;
+	font-size: 12px;
 }
-
-
